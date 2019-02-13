@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfService1.Controler" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfService1.Controler" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Body_Cadastrar">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adp_Local" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Coordenador" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ender_ip" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Est_boot" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Est_ener" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Est_font" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Est_os" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Est_rede" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Hd_cap" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Hd_liv" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_teamview" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_user" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Local_gru" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lotacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Marca" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Memo_cap" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Modelo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nom_cliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome_maq" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome_user" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pro_marca" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pro_model" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ramal" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serialsistema" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Setor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sistema" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Td_user" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tel_pe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Temp_ini" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ther_stat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tip_maq" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tip_rede" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tip_sistema" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Body_Cadastrar" nillable="true" type="tns:Body_Cadastrar" />
+</xs:schema>

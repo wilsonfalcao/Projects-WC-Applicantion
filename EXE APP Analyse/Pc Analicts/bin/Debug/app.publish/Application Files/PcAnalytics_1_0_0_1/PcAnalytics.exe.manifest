@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PcAnalytics.exe" version="1.0.0.1" publicKeyToken="e43c3a30afd4c991" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PcAnalytics" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PcAnalytics.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PcAnalytics.exe" size="292864">
+      <assemblyIdentity name="PcAnalytics" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jfsHahJHUaqHHM7yvfkfy+XKhMclBhJiQZk6AeTGJFk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PcAnalytics.exe.config" size="712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hI5srKLf+0M4qvcJhZ5NJNiKMaFZ3NatB0PJ7J8w1bY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=pcr-27929-PC\pcr-27929" issuerKeyHash="d3c06a0f083c21effae8251b622b644c2a33b642" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4rY1vn/QKH7Qg60jyqLadQoQquyHEyx0tgQsStsdihU=</DigestValue></Reference></SignedInfo><SignatureValue>cb/QmMtbUqvxilyMKhMpDMPZGKPQ2buQCMPhsl7QU9R33KDecjYQxaAx5eIaMZrkbCtW48wbtL3hOUub3HyzmaiknriXwDzT1epPX4qT4Rl3aFmGDIiuDLEap2wKIY/Epa3WMn9MiAJsUHeG4B0DmDiRnUd31/8ffCVmr6zPBq4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3UW50HA6ZVxT/4IRBRIMcgyeWhVhl/+dvBbNb8VuXs/zgE7PAFHS1KqrRcgRsDO/TyJw+dYCavsjaWdEkLoytzUjX7j+uhfyQYg+42saJj8fgiVj5M6jmZ0CcqWnAadasjdo8Jo57iEj4zrl65pp2j5DmzK115EkkFbvAsMY08E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="158a1ddb4a2c04b6742c1387ecaa100a75daa2ca23ad83d07e28d07fbe35b6e2" Description="" Url=""><as:assemblyIdentity name="PcAnalytics.exe" version="1.0.0.1" publicKeyToken="e43c3a30afd4c991" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=pcr-27929-PC\pcr-27929</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Oyr1kD2jqjYaAg1dNuv7moXJalI1/3bUAYSC53IyJvY=</DigestValue></Reference></SignedInfo><SignatureValue>E2w3Oa0fgKPIYZfvKvVFZvgD9ZhyQY8B+IWYrALANgfPHJoHWfOm2Ck5CfXW2vJhQxo3f13JwbRmuZOWFUaLw8M+Jmw39msjiVAHr7fCZ053tLBVGBa9E81009bdlLhdOcfKafVklWVi5F5WZBzbg9lQeXUzRpn4KcAQ5L9AfS0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3UW50HA6ZVxT/4IRBRIMcgyeWhVhl/+dvBbNb8VuXs/zgE7PAFHS1KqrRcgRsDO/TyJw+dYCavsjaWdEkLoytzUjX7j+uhfyQYg+42saJj8fgiVj5M6jmZ0CcqWnAadasjdo8Jo57iEj4zrl65pp2j5DmzK115EkkFbvAsMY08E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQWDSXmu4F9ZhKZ9D8nzWpqDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAcABjAHIALQAyADcAOQAyADkALQBQAEMAXABwAGMAcgAtADIANwA5ADIAOTAeFw0xNTA4MDUxNzExMTlaFw0xNjA4MDQyMzExMTlaMDcxNTAzBgNVBAMeLABwAGMAcgAtADIANwA5ADIAOQAtAFAAQwBcAHAAYwByAC0AMgA3ADkAMgA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdRbnQcDplXFP/ghEFEgxyDJ5aFWGX/528Fs1vxW5ez/OATs8AUdLUqqtFyBGwM79PInD51gJq+yNpZ0SQujK3NSNfuP66F/JBiD7jaxomPx+CJWPkzqOZnQJypacBp1qyN2jwmjnuISPjOuXrmmnaPkObMrXXkSSQVu8CwxjTwQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAI9VK3TognC6er9gXsmjLgYApzTz9JGrKp73Huc2SX4EZi3BtB6N/P0i5MCKbSWdRlfgW9Tlcycx1UI385WJZvvljRENRsZJ84BWnGrxOvLo11vg10lAnLws3qpI5+j8Z4sZhRpgtV0wHgnT+Nc7A6dyrJt1EP96cZEfN3M3mbBW</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

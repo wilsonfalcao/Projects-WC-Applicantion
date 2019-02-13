@@ -1,0 +1,5 @@
+C:\Users\pcr-27929\documents\visual studio 2012\Projects\Contratos_WCF\Contratos_WCF\bin\Contratos_WCF.dll
+C:\Users\pcr-27929\documents\visual studio 2012\Projects\Contratos_WCF\Contratos_WCF\bin\Contratos_WCF.pdb
+C:\Users\pcr-27929\documents\visual studio 2012\Projects\Contratos_WCF\Contratos_WCF\obj\Debug\Contratos_WCF.dll
+C:\Users\pcr-27929\documents\visual studio 2012\Projects\Contratos_WCF\Contratos_WCF\obj\Debug\Contratos_WCF.pdb
+C:\Users\pcr-27929\documents\visual studio 2012\Projects\Contratos_WCF\Contratos_WCF\obj\Debug\Contratos_WCF.csprojResolveAssemblyReference.cache
